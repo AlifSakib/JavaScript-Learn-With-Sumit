@@ -21,3 +21,9 @@ console.log(fruits.join(" "))
 // deleting an element from array leave the removed element space as empty
 
 // !Splice
+
+// solice() also return the value
+
+// !.concat() used for add two array
+
+// !Slice() to slice an array
