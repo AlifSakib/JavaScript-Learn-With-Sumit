@@ -9,3 +9,5 @@ let city = `Dhaka`
 
 let sentense =  `I love ${country} and i live in ${city}`
 console.log(sentense)
+
+const cars = ["Saab", "Volvo", "Bmw"]
