@@ -2,7 +2,7 @@
 
 // The JavaScript method toString() converts an array to a string of (comma separated) array values.
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 console.log(fruits.toString())
 
@@ -16,14 +16,28 @@ console.log(fruits.join(" "))
 // !Shifting Element
 
 // shift() removes the from the 1st element of an Array
-// unshift() take a value hat we want to add beginig of an array
+// unshift() take a value that we want to add beginig of an array
 // delet keyword use ffor delet element from array
 // deleting an element from array leave the removed element space as empty
 
+
+
 // !Splice
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.splice(3,0,"Lemon", "Kiwi")
+
+console.log(fruits)
+
 
 // solice() also return the value
 
 // !.concat() used for add two array
 
 // !Slice() to slice an array
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+var nFruits = fruits.slice(1,3)
+console.log(nFruits)
+
