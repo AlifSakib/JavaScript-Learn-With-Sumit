@@ -17,11 +17,4 @@ points.sort(function(a, b){return b - a});
 
 
 
-for (i = 30 ; i <= 86 ; i++){
-    
-    console.log(i)
-    if(i == 44){
-        break;
-    }
-    
-}
+
