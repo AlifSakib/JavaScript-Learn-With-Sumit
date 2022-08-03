@@ -62,3 +62,9 @@ var newNumbers = numbers.reduce(myFunction) */ // reduce also take another param
 // !Array.some()
 
 // this is like Array.every() but eikhane jodi 1 ta value o 18 theke boro hoy tahole true return korbe .
+
+// !Array.indexOf()
+// !Array.find()
+// !Array.findIndex()
+// !Array.form()
+// !Array.keys()
