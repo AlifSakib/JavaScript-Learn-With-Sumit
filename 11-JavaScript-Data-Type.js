@@ -1,4 +1,4 @@
-// TODO: 11-JavaScript-Data-Type.js
+// TODO: nod
 
 // ?JavaScript is a high level language , thats mean JavaScript is far away from machine . Its run on the browser . JavaScript types are dynamic.
 
