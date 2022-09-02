@@ -28,7 +28,7 @@ class Student {
     let array = [1, 2, 3];
     array.find(function () {
       this.test();
-    }, this); // For normal function we have to call this as a secound perameter when using find method. but if t=we use arrow function then we dont hove to use the secound perameter this.
+    }, this); // For normal function we have to call this as a secound perameter when using find method. but if we use arrow function then we dont hove to use the secound perameter this.
   }
 }
 
