@@ -34,3 +34,5 @@ console.log(firstName);
 let x = new String("Rahim");
 
 console.log(x);
+
+//! object er peoperty jokhon kono function oy tokhon oi function ke method bola hoy
