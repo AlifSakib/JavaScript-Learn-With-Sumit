@@ -27,3 +27,18 @@ add();
 
 console.log(counter);
  */
+
+function temporary() {
+  let counter = 0;
+
+  return function () {
+    counter += 1;
+    return counter;
+  };
+}
+
+const add = temporary();
+
+console.log(add());
+console.log(add());
+console.log(add());
