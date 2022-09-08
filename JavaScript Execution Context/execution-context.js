@@ -16,5 +16,9 @@ scope chain
 
 JavaScript code interprete kora shuru korle 1st e global execution context e jay , the jokhon function call kori tokhon function execution context e jay.
 
+
+
 ! Function Execution Context 
+
+Ekta function jokhon call hoy first e loading state e thake erpor execution state e jay , loading state e dekhe function er moddhe ki ki ache oigula load kore like kono variable thake oita value undefined set kore , argument thakle oita set kore , kono functon thakle oita keo load kore .  erpor shuru hoy execution context. mane erpor value set kora shuru kore .
 */
