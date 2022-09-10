@@ -44,13 +44,15 @@ Example :
 
 */
 
-const text = "#2A2A2A";
-const regex = /#?([\da-fA-F]{2})([\da-fA-F]{2})([\da-fA-F]{2})/g;
+// const text = "#2A2A2A";
+const text = "+8801912345678"; //
+// const regex = /#?([\da-fA-f)]{2})([\da-fA-f)]{2})([\da-fA-f)]{2})/g;
+const regex = /(\+88)?-?01[1-9]\d{8}/g;
 const matches = text.match(regex);
 
 const index = text.search(regex);
 
-const replaced = text.replace(regex, "#000000");
+const replaced = text.replace(regex, "Phone");
 
 const testing = regex.test(text);
 
