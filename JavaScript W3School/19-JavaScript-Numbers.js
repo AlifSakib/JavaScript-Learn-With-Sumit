@@ -39,4 +39,4 @@ console.log(d.toString(32));
 
 // !Interview Question
 
-// 1. Is Nan A Number ? Ans : Yes .
+// 1. isNan A Number ? Ans : Yes .
