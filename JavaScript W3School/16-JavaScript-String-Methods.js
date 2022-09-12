@@ -9,3 +9,7 @@ Length,slice(), substring(), substr(), replace(), toUpperCase(), toLowerCase(), 
 //! Je ekta object tar method o thakte pare nao thakte pare
 
 //! premitive -> number , string
+
+// ? Scape Character
+const str = "this is \\Vaikings\\ Row";
+console.log(str);
