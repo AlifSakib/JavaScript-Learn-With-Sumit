@@ -87,3 +87,38 @@ console.log(text145.split(","));
 // kono ekta string ke array te convert korte caile amra just oita uor split() method call kore dite pari without giving any perameter , ar jodi perameter dei tahole oi perameter jekhane jekhane pabe oi onujayi sokit() koira dibe .
 
 // And jodi "" erokom dei taile protita element ke array te convert kore dibe .
+
+// TODO: JavaScript String Search Methods
+
+// JavaScript String indexOf()
+
+let str4 = "Please locate where 'locate' Please occurs Please!";
+console.log(str4.indexOf("locate"));
+
+// JavaScript String lastIndexOf()
+console.log(str4.lastIndexOf("Please"));
+
+// JavaScript String search()
+
+let str7 = "Please locate where 'locate' occurs!";
+str.search("locate");
+
+// Search e reguler expression use kora jay . but indexOf() e eta use kora jay na .
+
+// JavaScript String match()
+
+let text88 = "The rain in SPAIN stays mainly in the plain";
+console.log(text88.match(/ain/gi));
+
+// Match sudhu regulerExpression i ney ebong je koyta match pay shob array format e return kore .
+
+// JavaScript String includes()
+
+// Include method return true if the string is inside the string else it return false .
+
+let text204 = "Hello world, welcome to the universe.";
+console.log(text204.includes("e"));
+
+// JavaScript String startsWith()
+
+// String.startsWith() check if the string starts with the giver perameter , StartsWith is case sensitive
