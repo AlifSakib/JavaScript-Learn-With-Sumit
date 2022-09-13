@@ -1,15 +1,12 @@
 // 24-JavaScript-Array-Iteration.js
 
-var numbers = [45, 4, 9, 16, 25]
+var numbers = [45, 4, 9, 16, 25];
 
-function myFunction(){  
+function myFunction() {}
 
-}
+numbers.forEach(myFunction); // What for each does is when we call him in a array he have some mecanism which he pass into the empty function. and the function takes 3 arguments. VALUE,INDEX,ARRAY
 
-numbers.forEach(myFunction)  // What for each does is when we call him in a array he have some mecanism which he pass into the empty function. and the function takes 3 arguments. VALUE,INDEX,ARRAY
-
-
-// !Array.map() 
+// !Array.map()
 
 /* var numbers = [45, 4, 9, 16, 25]
 
@@ -22,7 +19,6 @@ var newNumbers = numbers.map(myFunction) // Map returns values which can we save
 
 console.log(newNumbers) */
 
-
 // !Array.filter()
 
 /* var numbers = [45, 4, 9, 16, 25]
@@ -34,7 +30,6 @@ function myFunction(value,index,array){
 var newNumbers = numbers.filter(myFunction)
 
 console.log(newNumbers) */
-
 
 // !Array.reduce()
 
@@ -49,7 +44,6 @@ var newNumbers = numbers.reduce(myFunction) */ // reduce also take another param
 //Example var newNumbers = numbers.reduce(myFunction, 10)
 
 // console.log(newNumbers)
-
 
 // !Array.reduceRight()
 
