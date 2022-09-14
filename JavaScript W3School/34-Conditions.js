@@ -29,3 +29,10 @@ switch (date) {
   default:
     console.log("");
 }
+
+/* 
+
+Switch case use strict comparison (===)
+that means like if else if we set the value to string and compare it with number it they are same they will return true but for switch case it will not return true . because switch case check both type and value 
+
+*/
