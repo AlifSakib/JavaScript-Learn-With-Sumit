@@ -21,12 +21,9 @@ function myFunction(){
   return counter;
 }
 
-add();
-add();
-add();
-
-console.log(counter);
- */
+console.log(add());
+console.log(add());
+console.log(add()); */
 
 function temporary() {
   let counter = 0;
@@ -38,6 +35,7 @@ function temporary() {
 }
 
 const add = temporary();
+console.log(add);
 
 console.log(add());
 console.log(add());
